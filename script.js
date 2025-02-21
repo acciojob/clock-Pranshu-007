@@ -2,7 +2,7 @@
 function updateTimer() {
     const timerElement = document.getElementById("timer");
     const now = new Date();
-    timerElement.textContent = now.toLocaleString(); // Formats the date & time
+    timerElement.textContent = now.toLocaleString();
 }
 
 // Update every second
